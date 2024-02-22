@@ -1,0 +1,39 @@
+.card {
+    transition: transform 0.3s;
+  }
+
+  .card:hover {
+    transform: scale(1.1);
+  }
+
+  .card {
+    cursor: pointer;
+    height: 300px;
+  }
+
+  #landing {
+    background: linear-gradient(300deg, #ffffff, #929292, #5351ff);
+    animation: gradient-animation 18s ease infinite;
+ 
+  }
+
+  .lead{
+    font-size: x-large;
+  }
+
+  a{
+    text-decoration: none;
+  }
+  .text-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  h3{
+    background-color: rgba(255, 255, 255, 0.363); color: black;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+   
+  }
